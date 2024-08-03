@@ -1,0 +1,53 @@
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #dealpic {
+            height: 400px;
+            width: 100%;
+            object-fit: cover; /* Ensures the image covers the area without distortion */
+        }
+        .bannersection {
+            position: relative;
+            display: flex;
+            align-items: center; /* Center text vertically */
+            justify-content: center; /* Center text horizontally */
+        }
+        #bannertext {
+            position: absolute;
+            top: 40%; 
+            left: 60%; 
+            transform: translate(-40%, -60%); 
+            justify-content: flex-end; 
+            
+        }
+        .greentext{
+            color: #82ae46;
+        }
+        .dealh{
+            font-size: x-large;
+        }
+        #spinach{
+           font-size: xx-large;
+        }
+        
+    </style>
+</head>
+<body>
+    <section class="bannersection">
+        <img src="banner2.jpg" alt="deal of the day" id="dealpic">
+        <div id="bannertext">
+            <div class="greentext" style="font-size: larger;" >Best Price For You</div>
+            <div class="dealh"><h1>Deal of the Day</h1></div>
+            <div>The only website where you can order fresh fruits and vegetables and get them delivered to your doorstep timely at the best price.</div>
+            <div class="greentext" id="spinach">Spinach</div>
+            <div  ><del>$10</del>Now available at just <strong>$5</strong> </div>
+        </div>
+    </section>
+</body>
+</html>
