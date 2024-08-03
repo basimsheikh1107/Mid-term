@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    
+    
+
+<style>
+       
+      *{
+        margin: 0
+        padding 0;
+      }
+      html,
+      body {
+        /* width: 100%; */
+        height: 100%;
+        margin: 0px;
+      }
+       
+   
+   
+      #flex-container {
+        display: flex;
+        flex-flow:  wrap ;
+        justify-content: space-evenly;
+        /* background-color: DodgerBlue; */
+        /* height: 350px; */
+        margin: 0px;
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    #flex-container > section {
+  background-color: #f1f1f1;
+  width: 250px;
+  text-align:center;
+  /* line-height: 50px; */
+  /* font-size: 30px; */
+  height: 200px;
+  
+    }
+    
+     #section-images{
+
+        width: 250px;
+        height: 200px;
+     }
+     
+     p{
+        text-align: center;
+        line-height: 45px;
+     }
+     span{
+        border-radius: 25%;
+        padding: 10px;
+        background-color: #82AE46;
+        color: #f1f1f1;
+    
+     }
+     
+      
+     #icon{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        max-width: 900px;
+        
+     }
+
+     #icon .icon-text{
+        
+        text-align: center;
+        width: 200px;
+     }
+    
+     .icon-image{
+         
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+     }
+
+     .icon-text{
+
+        line-height: 20px;
+        text-transform: uppercase;
+        font-size: 10px;
+        margin-bottom: 14px;
+     }
+    
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <section id="icon">
+        <p class="icon-text">
+            <img src="Shipping.png" class="icon-image">
+            <br> <strong>Free shipping</strong>   <br> on order over $100</p>
+
+            <p class="icon-text">
+                <img src="healthy.png" class="icon-image">
+                <br> <strong>Healthy</strong>   <br> Living a healthy lifestyle</p>
+
+
+                <p class="icon-text">
+                    <img src="best quality.png" class="icon-image">
+                    <br> <strong>Super quality</strong>  <br> High-quality guaranteed</p>
+
+
+                    <p class="icon-text">
+                        <img src="support.png" class="icon-image">
+                        <br> <strong>Support</strong>   <br> 24/7 support</p>
+
+    </section>
+  
+    <section id="flex-container" >
+        <div>
+            <img id="section-images"  src="Fruits.png" >
+        </div>
+
+        <div>
+            <p id="section-images"> <strong style="color: #82AE46;">Vegetables</strong> <br> Protect the health of every home <br> <span>Shop now </span> </p>
+        </div>
+
+        <div>
+            <img id="section-images"  src="Juices.png" >
+        </div>
+
+        <div>
+            <img id="section-images" src="Vegetables.png" >
+        </div>
+
+        <div>
+            <img id="section-images" src="Middle bottom.png" >
+        </div>
+        <div>
+            <img id="section-images" src="Dry-fruits.png" >
+        </div>
+    </section>
+
+</body>
+</html>
