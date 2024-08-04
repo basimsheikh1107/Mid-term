@@ -1,0 +1,398 @@
+#section1 {
+    display: flex;
+    background-color: #82AE46;
+    height: 1.25rem;
+    justify-content: space-around;
+    color: white;
+}
+.bar {
+    display: flex;
+    align-items: center;
+}
+#section2 {
+    display: flex;
+    background-color: white;
+    height: 4rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+#brandname {
+    color: #7bc62d;
+    font-size: x-large;
+}
+.navbar {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.navbar li {
+    margin: 0 1rem;
+}
+.navbar a {
+    text-decoration: none;
+
+    padding: 0.75rem 1rem;
+    display: block;
+}
+.navbar a:hover {
+    background-color:#82AE46;
+    border-radius: 0.5rem;
+   
+}
+.first-image{
+    display: flex;
+    height: 40rem;
+    width: 100%;
+    
+
+}
+.image-container {
+    position: relative;
+    display: flex;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+
+    transform: translate(-10%, -25%);
+    color: white;  
+    font-size: 3rem; 
+    text-align: center;
+    font-family: cursive; 
+    color: white;
+}
+
+.image-text{
+    position: absolute;
+    top: 25%;
+    left: 45%;
+
+    transform: translate(-25%, -45%);
+    color: white; 
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+    font-family: cursive; 
+
+}
+.search-button {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5rem; 
+    text-align: center;
+    background-color: #7bc62d;
+    justify-content: center;
+    border-radius: 25px;
+   
+}
+
+#flex-container {
+    display: flex;
+    flex-flow:  wrap ;
+    justify-content: space-evenly;
+    margin: 0px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+#flex-container > section {
+    background-color: #f1f1f1;
+    width: 250px;
+    text-align:center;
+    height: 200px;
+
+}
+
+ #section-images{
+
+    width: 250px;
+    height: 200px;
+ }
+ 
+ p{
+    text-align: center;
+    line-height: 45px;
+ }
+ span{
+    border-radius: 25%;
+    padding: 10px;
+    background-color: #82AE46;
+    color: #f1f1f1;
+
+ }
+ 
+  
+ #icon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    max-width: 900px;
+    
+ }
+
+ #icon .icon-text{
+    
+    text-align: center;
+    width: 200px;
+ }
+
+ .icon-image{
+     
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+ }
+
+ .icon-text{
+
+    line-height: 20px;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-bottom: 14px;
+ }
+
+ #our-product{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
+#our-product > div{
+    background-color: white;
+    width: 200px;
+    height: 250px;
+    line-height: 20px;
+    margin: 6px;
+    text-align: start;
+    border: 1px solid gainsboro;
+}
+
+.products{
+    width: 200px;
+    height: 180px;
+    
+    
+
+}
+.name{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: black;
+}
+p{
+    text-align: center;
+    margin-top: 0px;
+}
+
+.discount{
+    background-color: #82AE46;
+    padding: 3px;
+    margin: 0px;
+    font-size: 12px;
+    position: absolute;
+}
+
+.price{
+    color: #82AE46;
+}
+
+
+
+#featured-products{
+    display: flex;
+    flex-flow: column;
+    max-width: 960px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 7px;
+    text-transform: capitalize;
+
+}
+ h4 {
+    margin: 0px;
+    
+}
+
+#dealpic {
+    height: 400px;
+    width: 100%;
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+.bannersection {
+    position: relative;
+    display: flex;
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+}
+#bannertext {
+    position: absolute;
+    top: 40%; 
+    left: 60%; 
+    transform: translate(-40%, -60%); 
+    justify-content: flex-end; 
+    
+}
+.greentext{
+    color: #82ae46;
+}
+.dealh{
+    font-size: x-large;
+}
+#spinach{
+   font-size: xx-large;
+}
+
+
+#testimony  {
+    display: flex;
+    flex-flow: wrap;
+    max-width: 960px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+
+   }
+
+   .persons {
+    background-color: #fff;
+    width: 15rem;
+
+    margin: 10px;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 1rem;
+    
+    }
+
+   
+    
+
+   #firstsec {
+    display: flex;
+    flex-flow: column;
+    max-width: 960px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 2rem;
+    
+
+   }
+
+    .images {
+     border-radius: 50%;
+     margin-bottom: 10px;
+   } 
+
+   .names{
+    margin-top: 1rem;
+
+   }
+
+   .review-title{
+    margin-top: 10px;
+   }
+
+   #company-logos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100% ;
+    border-top: 1px solid;
+    height: 15rem;
+}
+.images{
+    height: 4rem;
+    width: 10rem;
+}
+.smallpic{
+    height: 10rem;
+    width: 13rem;
+}
+
+.part{
+    margin-top: 4rem;
+}
+
+.newsletter-section{
+    display: flex;
+    align-items: center;
+    height: 13rem;
+    width: 100%;
+    background-color:whitesmoke;
+    justify-content: space-around;
+   
+}
+
+.search-input {
+    border: 1px solid whitesmoke;
+    padding: 10px;
+    font-size: 1rem;
+    width: 20rem;
+    outline: none;
+}
+
+
+.subscribe-button {
+    border: none;
+    background-color:#82AE46;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+.footer{
+    display: flex;
+    background-color: #ffffff;
+    height: 25rem;
+    
+}
+
+.container{
+    display: flex;
+    height: 20rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 5rem;
+    justify-content: space-between;
+   
+  
+    background-color: #ffffff;
+    width: 100%;}
+
+.footer-col{
+        width: 24%;
+    }
+.col{
+        margin-bottom: 1rem;
+
+    }
+.logo-sec{
+    margin-top: 5rem;
+}
+.rr{
+    display: flex;
+    justify-content: center;
+}
+
+   
+
+
+
+    
+
+
