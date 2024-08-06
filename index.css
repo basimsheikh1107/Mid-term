@@ -30,16 +30,18 @@
     font-size: x-large;
 }
 .navbar {
+    
     list-style: none;
     display: flex;
     align-items: center;
+    
 }
 .navbar li {
     margin: 0 1rem;
 }
 .navbar a {
     text-decoration: none;
-
+    color: #000;
     padding: 0.75rem 1rem;
     display: block;
 }
